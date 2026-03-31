@@ -3,7 +3,7 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 SCOPES = ['https://www.googleapis.com/auth/gmail.modify']
 
 flow = InstalledAppFlow.from_client_secrets_file(
-    'C:/Users/syedm/Synelime/coirei/Email/ai_sales_agent/sales/Email_Ingestion/credentials.json', SCOPES)
+    '--credentials file path --', SCOPES)
 
 creds = flow.run_local_server(port=0)
 
