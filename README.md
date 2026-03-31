@@ -97,5 +97,3 @@ See `.env.example`.
 - React dashboard
 - Rate limiting
 - Webhooks for real-time
-
-Built with ❤️ by BLACKBOXAI
